@@ -1,0 +1,52 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local environments and notebooks
+.venv/
+venv/
+env/
+conda_envs/
+.ipynb_checkpoints/
+
+# Runtime caches
+.cache/
+tmp/
+runs/
+
+# Large data/model artifacts
+data/*
+!data/README.md
+models/*
+!models/README.md
+repos/
+weights/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.onnx
+
+# Generated heavy outputs
+outputs/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# System files
+.DS_Store
